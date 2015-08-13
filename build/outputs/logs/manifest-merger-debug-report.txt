@@ -1,0 +1,95 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	package
+		ADDED from AndroidManifest.xml:3:7
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:7
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:7
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	android:theme
+		ADDED from AndroidManifest.xml:6:5
+application
+ADDED from AndroidManifest.xml:10:5
+	android:label
+		ADDED from AndroidManifest.xml:10:18
+	android:debuggable
+		ADDED from AndroidManifest.xml:10:77
+	android:icon
+		ADDED from AndroidManifest.xml:10:47
+activity#com.pluralsight.MyActivity
+ADDED from AndroidManifest.xml:11:9
+	android:label
+		ADDED from AndroidManifest.xml:12:19
+	android:name
+		ADDED from AndroidManifest.xml:11:19
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:13:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:14:17
+	android:name
+		ADDED from AndroidManifest.xml:14:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:15:17
+	android:name
+		ADDED from AndroidManifest.xml:15:27
+activity#com.pluralsight.OtherActivity
+ADDED from AndroidManifest.xml:18:9
+	android:name
+		ADDED from AndroidManifest.xml:18:19
+activity#com.pluralsight.HelloWorld1
+ADDED from AndroidManifest.xml:19:9
+	android:label
+		ADDED from AndroidManifest.xml:19:47
+	android:name
+		ADDED from AndroidManifest.xml:19:19
+intent-filter#android.intent.category.DEFAULT+com.pluralsight.action.HELLO_WORLD
+ADDED from AndroidManifest.xml:20:13
+action#com.pluralsight.action.HELLO_WORLD
+ADDED from AndroidManifest.xml:21:17
+	android:name
+		ADDED from AndroidManifest.xml:21:25
+category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:22:17
+	android:name
+		ADDED from AndroidManifest.xml:22:27
+service#com.pluralsight.MyService
+ADDED from AndroidManifest.xml:25:9
+	android:name
+		ADDED from AndroidManifest.xml:25:18
+intent-filter#com.pluralsight.action.LOG_DATE+com.pluralsight.action.LOG_TIME
+ADDED from AndroidManifest.xml:26:13
+action#com.pluralsight.action.LOG_TIME
+ADDED from AndroidManifest.xml:27:17
+	android:name
+		ADDED from AndroidManifest.xml:27:25
+action#com.pluralsight.action.LOG_DATE
+ADDED from AndroidManifest.xml:28:17
+	android:name
+		ADDED from AndroidManifest.xml:28:25
+receiver#com.pluralsight.AirplaneModeReceiver
+ADDED from AndroidManifest.xml:31:9
+	android:name
+		ADDED from AndroidManifest.xml:31:19
+intent-filter#android.intent.action.AIRPLANE_MODE
+ADDED from AndroidManifest.xml:32:13
+action#android.intent.action.AIRPLANE_MODE
+ADDED from AndroidManifest.xml:33:17
+	android:name
+		ADDED from AndroidManifest.xml:33:25
+uses-sdk
+INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
+	android:targetSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0

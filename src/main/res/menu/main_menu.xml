@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menuShowOtherActivity"
+          android:title="@string/menuShowOtherActivity"/>
+    <item android:id="@+id/menuRunService"
+          android:title="@string/menuRunService" />
+    <item android:id="@+id/menuShowHelloWorld"
+           android:title="Show Hello World" />
+    <item android:id="@+id/menuShowPSHomePage"
+           android:title="Show PS Home Page" />
+    <item android:id="@+id/menuQuit"
+          android:title="@string/menuQuit"/>
+</menu>

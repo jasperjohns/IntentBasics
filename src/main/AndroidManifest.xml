@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.pluralsight"
+      android:versionCode="1"
+      android:versionName="1.0"
+    android:theme="@android:style/Theme.Holo"
+
+
+    >
+    <application android:label="IntentBasics" android:icon="@drawable/icon" android:debuggable="true">
+        <activity android:name="MyActivity"
+                  android:label="Intent Basics">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".OtherActivity"/>
+        <activity android:name=".HelloWorld1" android:label="Hello World from IntentBasics">
+            <intent-filter>
+                <action android:name="com.pluralsight.action.HELLO_WORLD" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <service android:name=".MyService">
+            <intent-filter>
+                <action android:name="com.pluralsight.action.LOG_TIME" />
+                <action android:name="com.pluralsight.action.LOG_DATE" />
+            </intent-filter>
+        </service>
+        <receiver android:name=".AirplaneModeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.AIRPLANE_MODE" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest> 

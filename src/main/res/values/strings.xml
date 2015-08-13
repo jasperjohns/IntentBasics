@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyActivity</string>
+    <string name="menuShowOtherActivity">Show Other Activity</string>
+    <string name="menuRunService">Run Service</string>
+    <string name="menuQuit">Exit App</string>
+</resources>
